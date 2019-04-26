@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4C6E55023B7C3C959F02494AC73E6B /* EPContactsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A4D91F0D9D6102D2ABBF0E9972BCFB /* EPContactsPicker-dummy.m */; };
+		104C7137D37D2561967FA63CE7DF20B8 /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140FAC2288CC2AFEFC60882A6AFFBE27 /* EPContactCell.swift */; };
+		1644D45E1EB911498F15A2798270EA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F00D7E2C356A3B7167E4E269A75CF /* Foundation.framework */; };
+		1EB1364D4F2E6FB6B10E9F87E0A68E64 /* Pods-HiApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D02627C6081A5CAA21B9D89806127138 /* Pods-HiApp-dummy.m */; };
+		21924C6E334E76AB9904A2849D060D78 /* Pods-HiAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3616B4C2CAE236324F177A08B2CA58AA /* Pods-HiAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2925F9DA65EDDEF38AA53D3A266ED115 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B2D9BDDA2EFC9797B93E6603B3B1E /* EPExtensions.swift */; };
+		2CF581C62EF492494E1535B9581904F0 /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4508ACA0025F196BDF3A07EAA28F781 /* EPConstants.swift */; };
+		30ECAF43659C1EAD4C8D1668D348576E /* Pods-HiApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AAF5D2645AE03C1D66F95D14048848 /* Pods-HiApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352801BD8F31C2BB6F5AAC1D5024B766 /* Pods-HiAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0295366BB7DABF0EDE4F2E1618932D /* Pods-HiAppUITests-dummy.m */; };
+		36C642BACD707DCC4DCB49786A71A442 /* Pods-HiAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 199E98A26DA0C12BC5188C417E79FE32 /* Pods-HiAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38173FF45494A7AD7CEF524D7A1050BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F00D7E2C356A3B7167E4E269A75CF /* Foundation.framework */; };
+		4AB360131DE2A25283B2BA5E18629637 /* EPContactsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD09B3B4DC39F7B93BA6651E1391FAB /* EPContactsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A285127514E0BA27CEAFAA3BE17C0A /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38B953DD2D8751F2FCFFE355675BEB0 /* ContactsUI.framework */; };
+		535503517E39F699D6BD80833DF78337 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34001568F11E4C6BDD172AB5295736AB /* EPContact.swift */; };
+		67ED1F086D48EEEF30D9298E54E833F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F00D7E2C356A3B7167E4E269A75CF /* Foundation.framework */; };
+		85E9BF5A042F1FAE2FDDE4297CB196B4 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE248DEF5589A5A6FF8DC5AA042B0476 /* Contacts.framework */; };
+		8B599A11723FDC9A37541D687B2F6560 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC22A8C386D26203A8ACB2D092A16 /* EPContactCell.xib */; };
+		9EC8C6CBE27A40DCE6AF141724553FB8 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DAC22A8C386D26203A8ACB2D092A16 /* EPContactCell.xib */; };
+		D425BD3CC17C2D9B027A3DC196CA26EE /* EPContactsPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F9DD3C8B9DB34805E79E27CAD00F4DE /* EPContactsPicker.bundle */; };
+		DACEB9CE3682613085498CB7B1215B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F00D7E2C356A3B7167E4E269A75CF /* Foundation.framework */; };
+		E5FB5201010A7F9B00AD1F651FB7AD22 /* Pods-HiAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 266960A26FFBE2637AA23BD25874637E /* Pods-HiAppTests-dummy.m */; };
+		EEB57F138707D3C94D8BD9194E7FA646 /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295DA78E4705F9E7725EDFBE058A2225 /* EPContactsPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AF7DC3CBCFC5A27DFE65037353A47AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217E6B5F66195584931B9B1CD3866389;
+			remoteInfo = "Pods-HiApp";
+		};
+		6085357A45D1AD6BE175AF34F46F274D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217E6B5F66195584931B9B1CD3866389;
+			remoteInfo = "Pods-HiApp";
+		};
+		6BB4764CACB21D62E1C444C95DB5573F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F2067AAC0A5ED4F8B828676B25FB5C5;
+			remoteInfo = "EPContactsPicker-EPContactsPicker";
+		};
+		B7B77E7573BEC542C5C8305E2FAD0E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9836DFB1DFBCB022170A624A55CE3B03;
+			remoteInfo = EPContactsPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9DD3C8B9DB34805E79E27CAD00F4DE /* EPContactsPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPContactsPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		11755484D213D7B43EC6E4B86958EDBF /* Pods-HiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		140FAC2288CC2AFEFC60882A6AFFBE27 /* EPContactCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactCell.swift; path = Pods/EPContactCell.swift; sourceTree = "<group>"; };
+		162F5ED3C6B3F039958E9AC0B2C72ABD /* Pods_HiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		199E98A26DA0C12BC5188C417E79FE32 /* Pods-HiAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		1B6AF7804D796148920B602F243B6E8F /* Pods-HiAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		266960A26FFBE2637AA23BD25874637E /* Pods-HiAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiAppTests-dummy.m"; sourceTree = "<group>"; };
+		295DA78E4705F9E7725EDFBE058A2225 /* EPContactsPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactsPicker.swift; path = Pods/EPContactsPicker.swift; sourceTree = "<group>"; };
+		34001568F11E4C6BDD172AB5295736AB /* EPContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContact.swift; path = Pods/EPContact.swift; sourceTree = "<group>"; };
+		3586E4D6A4B00320C9FAF6AADB912447 /* Pods-HiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiApp.release.xcconfig"; sourceTree = "<group>"; };
+		3616B4C2CAE236324F177A08B2CA58AA /* Pods-HiAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiAppTests-umbrella.h"; sourceTree = "<group>"; };
+		37EB5240526DC4BD207357D9D7E6DEBB /* Pods-HiAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiAppUITests.modulemap"; sourceTree = "<group>"; };
+		543234F63BA65E2583750AECB914398B /* Pods-HiApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		582F2F6A2AD261AAB5E584CCB8CE66B0 /* Pods_HiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0295366BB7DABF0EDE4F2E1618932D /* Pods-HiAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiAppUITests-dummy.m"; sourceTree = "<group>"; };
+		6550FAF0001BE6182141BDDFF30315AB /* Pods-HiAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65A4D91F0D9D6102D2ABBF0E9972BCFB /* EPContactsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPContactsPicker-dummy.m"; sourceTree = "<group>"; };
+		71AAF5D2645AE03C1D66F95D14048848 /* Pods-HiApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiApp-umbrella.h"; sourceTree = "<group>"; };
+		766B80EF12CCCA5166C266450CC2D5A8 /* Pods-HiApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiApp-Info.plist"; sourceTree = "<group>"; };
+		76A0E83C2D9DCC2B090711141E8BC414 /* EPContactsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPContactsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8530AEF93A71E62AF3D15AB32A97C3 /* Pods_HiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD18C778957223E70B3DAADF0191C8A /* Pods-HiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91FC66407CBE6E508CB601D261B97432 /* Pods-HiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		997B34281364DA177B26EDD10EFA0A4C /* Pods-HiAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiAppTests.modulemap"; sourceTree = "<group>"; };
+		9A4B2D9BDDA2EFC9797B93E6603B3B1E /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = Pods/EPExtensions.swift; sourceTree = "<group>"; };
+		9D5ED3A2A74AF6EA8CD2E75FE8E9891E /* Pods-HiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DAC22A8C386D26203A8ACB2D092A16 /* EPContactCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPContactCell.xib; path = Pods/EPContactCell.xib; sourceTree = "<group>"; };
+		A52924D5E94564FF903BBCB9E83178F1 /* Pods-HiApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiApp-frameworks.sh"; sourceTree = "<group>"; };
+		A96F56C10939B7C945B1602E63941885 /* ResourceBundle-EPContactsPicker-EPContactsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EPContactsPicker-EPContactsPicker-Info.plist"; sourceTree = "<group>"; };
+		B2399A05A6F8D3324A18E63BEF12C61D /* Pods-HiAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2F409F50B0F09E0A9D3EA24C46C3C07 /* EPContactsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EPContactsPicker-Info.plist"; sourceTree = "<group>"; };
+		B39F00D7E2C356A3B7167E4E269A75CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C25F7F9172937B789C3551823CDCB9C2 /* EPContactsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EPContactsPicker.modulemap; sourceTree = "<group>"; };
+		C476A508C1D425230A8832B79363CD58 /* Pods-HiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CD032406F58859985E80D806160AB951 /* Pods-HiAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D02627C6081A5CAA21B9D89806127138 /* Pods-HiApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiApp-dummy.m"; sourceTree = "<group>"; };
+		D1C6A9B3F8428486E671BAD92132F7EC /* Pods-HiApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4508ACA0025F196BDF3A07EAA28F781 /* EPConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPConstants.swift; path = Pods/EPConstants.swift; sourceTree = "<group>"; };
+		D70D169DDCABBA0C6733B90EC76A4A9D /* Pods-HiApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiApp.modulemap"; sourceTree = "<group>"; };
+		DAB569922A65156E498E0C6F5A2F9213 /* Pods-HiAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiAppTests-Info.plist"; sourceTree = "<group>"; };
+		E8D353984C505F7E86FA6E4378E5A8D9 /* EPContactsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPContactsPicker.xcconfig; sourceTree = "<group>"; };
+		EC85D880DE07C1B18F13BA9F9C1D5C6D /* EPContactsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-prefix.pch"; sourceTree = "<group>"; };
+		ECD71B5A2A1C6B37EF680EFACCC12739 /* Pods-HiAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiAppUITests-Info.plist"; sourceTree = "<group>"; };
+		EE248DEF5589A5A6FF8DC5AA042B0476 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		F38B953DD2D8751F2FCFFE355675BEB0 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = DEVELOPER_DIR; };
+		FFD09B3B4DC39F7B93BA6651E1391FAB /* EPContactsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A63DD1AF180BFA14056D9D7A641A396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8DD8B26F4EE3B169900614A635298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E9BF5A042F1FAE2FDDE4297CB196B4 /* Contacts.framework in Frameworks */,
+				50A285127514E0BA27CEAFAA3BE17C0A /* ContactsUI.framework in Frameworks */,
+				1644D45E1EB911498F15A2798270EA4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA20601A5D7AEF5ABA88828AED159073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACEB9CE3682613085498CB7B1215B3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D8E814036680406182DD2EDB24124A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67ED1F086D48EEEF30D9298E54E833F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92CE9F5CA6CABF5456592221B703684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38173FF45494A7AD7CEF524D7A1050BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B52B4B5EEF0C30CDE7AC4CDDDE4A63BF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		197FA676EBBD2ADA0F92849DFC24C3D8 /* Pods-HiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				997B34281364DA177B26EDD10EFA0A4C /* Pods-HiAppTests.modulemap */,
+				1B6AF7804D796148920B602F243B6E8F /* Pods-HiAppTests-acknowledgements.markdown */,
+				6550FAF0001BE6182141BDDFF30315AB /* Pods-HiAppTests-acknowledgements.plist */,
+				266960A26FFBE2637AA23BD25874637E /* Pods-HiAppTests-dummy.m */,
+				DAB569922A65156E498E0C6F5A2F9213 /* Pods-HiAppTests-Info.plist */,
+				3616B4C2CAE236324F177A08B2CA58AA /* Pods-HiAppTests-umbrella.h */,
+				8DD18C778957223E70B3DAADF0191C8A /* Pods-HiAppTests.debug.xcconfig */,
+				11755484D213D7B43EC6E4B86958EDBF /* Pods-HiAppTests.release.xcconfig */,
+			);
+			name = "Pods-HiAppTests";
+			path = "Target Support Files/Pods-HiAppTests";
+			sourceTree = "<group>";
+		};
+		1DE1E253FC391D20CBC6F04358C5BAEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5744081AA37F040DE42E680448376F3 /* EPContactsPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27EB7E203238FB93A42ADAD99BF4C1BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B17AE0170938B613D561C6A277A4CA9C /* Pods-HiApp */,
+				197FA676EBBD2ADA0F92849DFC24C3D8 /* Pods-HiAppTests */,
+				75B3AE3E1E8F17EC67EFA4F8ADC92ABF /* Pods-HiAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4936363B385BAC01BC03D7519F048C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9DD3C8B9DB34805E79E27CAD00F4DE /* EPContactsPicker.bundle */,
+				76A0E83C2D9DCC2B090711141E8BC414 /* EPContactsPicker.framework */,
+				582F2F6A2AD261AAB5E584CCB8CE66B0 /* Pods_HiApp.framework */,
+				7B8530AEF93A71E62AF3D15AB32A97C3 /* Pods_HiAppTests.framework */,
+				162F5ED3C6B3F039958E9AC0B2C72ABD /* Pods_HiAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B3AE3E1E8F17EC67EFA4F8ADC92ABF /* Pods-HiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37EB5240526DC4BD207357D9D7E6DEBB /* Pods-HiAppUITests.modulemap */,
+				B2399A05A6F8D3324A18E63BEF12C61D /* Pods-HiAppUITests-acknowledgements.markdown */,
+				CD032406F58859985E80D806160AB951 /* Pods-HiAppUITests-acknowledgements.plist */,
+				5A0295366BB7DABF0EDE4F2E1618932D /* Pods-HiAppUITests-dummy.m */,
+				ECD71B5A2A1C6B37EF680EFACCC12739 /* Pods-HiAppUITests-Info.plist */,
+				199E98A26DA0C12BC5188C417E79FE32 /* Pods-HiAppUITests-umbrella.h */,
+				9D5ED3A2A74AF6EA8CD2E75FE8E9891E /* Pods-HiAppUITests.debug.xcconfig */,
+				91FC66407CBE6E508CB601D261B97432 /* Pods-HiAppUITests.release.xcconfig */,
+			);
+			name = "Pods-HiAppUITests";
+			path = "Target Support Files/Pods-HiAppUITests";
+			sourceTree = "<group>";
+		};
+		77C6258CE4B0F3F006F550CBD024D9EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25F7F9172937B789C3551823CDCB9C2 /* EPContactsPicker.modulemap */,
+				E8D353984C505F7E86FA6E4378E5A8D9 /* EPContactsPicker.xcconfig */,
+				65A4D91F0D9D6102D2ABBF0E9972BCFB /* EPContactsPicker-dummy.m */,
+				B2F409F50B0F09E0A9D3EA24C46C3C07 /* EPContactsPicker-Info.plist */,
+				EC85D880DE07C1B18F13BA9F9C1D5C6D /* EPContactsPicker-prefix.pch */,
+				FFD09B3B4DC39F7B93BA6651E1391FAB /* EPContactsPicker-umbrella.h */,
+				A96F56C10939B7C945B1602E63941885 /* ResourceBundle-EPContactsPicker-EPContactsPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EPContactsPicker";
+			sourceTree = "<group>";
+		};
+		9014561CD7894E2F3F8CAEA730E72246 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAC22A8C386D26203A8ACB2D092A16 /* EPContactCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B17AE0170938B613D561C6A277A4CA9C /* Pods-HiApp */ = {
+			isa = PBXGroup;
+			children = (
+				D70D169DDCABBA0C6733B90EC76A4A9D /* Pods-HiApp.modulemap */,
+				D1C6A9B3F8428486E671BAD92132F7EC /* Pods-HiApp-acknowledgements.markdown */,
+				543234F63BA65E2583750AECB914398B /* Pods-HiApp-acknowledgements.plist */,
+				D02627C6081A5CAA21B9D89806127138 /* Pods-HiApp-dummy.m */,
+				A52924D5E94564FF903BBCB9E83178F1 /* Pods-HiApp-frameworks.sh */,
+				766B80EF12CCCA5166C266450CC2D5A8 /* Pods-HiApp-Info.plist */,
+				71AAF5D2645AE03C1D66F95D14048848 /* Pods-HiApp-umbrella.h */,
+				C476A508C1D425230A8832B79363CD58 /* Pods-HiApp.debug.xcconfig */,
+				3586E4D6A4B00320C9FAF6AADB912447 /* Pods-HiApp.release.xcconfig */,
+			);
+			name = "Pods-HiApp";
+			path = "Target Support Files/Pods-HiApp";
+			sourceTree = "<group>";
+		};
+		B52B4B5EEF0C30CDE7AC4CDDDE4A63BF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE248DEF5589A5A6FF8DC5AA042B0476 /* Contacts.framework */,
+				F38B953DD2D8751F2FCFFE355675BEB0 /* ContactsUI.framework */,
+				B39F00D7E2C356A3B7167E4E269A75CF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				1DE1E253FC391D20CBC6F04358C5BAEB /* Pods */,
+				4936363B385BAC01BC03D7519F048C7B /* Products */,
+				27EB7E203238FB93A42ADAD99BF4C1BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5744081AA37F040DE42E680448376F3 /* EPContactsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D4508ACA0025F196BDF3A07EAA28F781 /* EPConstants.swift */,
+				34001568F11E4C6BDD172AB5295736AB /* EPContact.swift */,
+				140FAC2288CC2AFEFC60882A6AFFBE27 /* EPContactCell.swift */,
+				295DA78E4705F9E7725EDFBE058A2225 /* EPContactsPicker.swift */,
+				9A4B2D9BDDA2EFC9797B93E6603B3B1E /* EPExtensions.swift */,
+				9014561CD7894E2F3F8CAEA730E72246 /* Resources */,
+				77C6258CE4B0F3F006F550CBD024D9EB /* Support Files */,
+			);
+			path = EPContactsPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09A4700BAFAE7B4DF946561617CFD965 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30ECAF43659C1EAD4C8D1668D348576E /* Pods-HiApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B68187A826D79129D15015283481FA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB360131DE2A25283B2BA5E18629637 /* EPContactsPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCA646A75BC6C5D9F34A18F427E3A4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21924C6E334E76AB9904A2849D060D78 /* Pods-HiAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CADCF7851788C7E1C57DA551BF7297B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C642BACD707DCC4DCB49786A71A442 /* Pods-HiAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		217E6B5F66195584931B9B1CD3866389 /* Pods-HiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465AAF821BE02F5341B658508BB39EE9 /* Build configuration list for PBXNativeTarget "Pods-HiApp" */;
+			buildPhases = (
+				09A4700BAFAE7B4DF946561617CFD965 /* Headers */,
+				C05CDA4DABBDF0589732D5D474FE0D58 /* Sources */,
+				C2D8E814036680406182DD2EDB24124A /* Frameworks */,
+				70330CDAF721851A08835CF40BCDC7C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3B18773580F80F013C921C972C89AE /* PBXTargetDependency */,
+			);
+			name = "Pods-HiApp";
+			productName = "Pods-HiApp";
+			productReference = 582F2F6A2AD261AAB5E584CCB8CE66B0 /* Pods_HiApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A47947DCEB39461A16B5040DC4987CB /* Pods-HiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFAB289066DB4C9DE17484F96A1FDCD /* Build configuration list for PBXNativeTarget "Pods-HiAppTests" */;
+			buildPhases = (
+				5CCA646A75BC6C5D9F34A18F427E3A4A /* Headers */,
+				0CA7F6A44D4020C2974F906E62A8AD53 /* Sources */,
+				AA20601A5D7AEF5ABA88828AED159073 /* Frameworks */,
+				01434BD76639F5DE0969E8DBC6A307A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A2F3C463DFE9753E8BB6A34FA1DD34 /* PBXTargetDependency */,
+			);
+			name = "Pods-HiAppTests";
+			productName = "Pods-HiAppTests";
+			productReference = 7B8530AEF93A71E62AF3D15AB32A97C3 /* Pods_HiAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F2067AAC0A5ED4F8B828676B25FB5C5 /* EPContactsPicker-EPContactsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B99900451A515317E03B14FEFA7FC4 /* Build configuration list for PBXNativeTarget "EPContactsPicker-EPContactsPicker" */;
+			buildPhases = (
+				A207F4DEA7693821DF866CBB2B3F76E6 /* Sources */,
+				8A63DD1AF180BFA14056D9D7A641A396 /* Frameworks */,
+				8513DFD320858B6F461590E7E4E457F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EPContactsPicker-EPContactsPicker";
+			productName = "EPContactsPicker-EPContactsPicker";
+			productReference = 0F9DD3C8B9DB34805E79E27CAD00F4DE /* EPContactsPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9836DFB1DFBCB022170A624A55CE3B03 /* EPContactsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D450F4DE5CE4CFF4AC8165E203CC6FDA /* Build configuration list for PBXNativeTarget "EPContactsPicker" */;
+			buildPhases = (
+				2B68187A826D79129D15015283481FA8 /* Headers */,
+				7D596E540E862D18BB7F8514BECEFC84 /* Sources */,
+				98B8DD8B26F4EE3B169900614A635298 /* Frameworks */,
+				FE7B86B6F5DA1612FFECDFC7BC04ABFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1BA6EC8941000BC1A0AA6B074DB504 /* PBXTargetDependency */,
+			);
+			name = EPContactsPicker;
+			productName = EPContactsPicker;
+			productReference = 76A0E83C2D9DCC2B090711141E8BC414 /* EPContactsPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC4A1D3BADAE7CA1E40343B2180CC642 /* Pods-HiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9126441525462045541B0BDA9880C5FC /* Build configuration list for PBXNativeTarget "Pods-HiAppUITests" */;
+			buildPhases = (
+				7CADCF7851788C7E1C57DA551BF7297B /* Headers */,
+				490ED2214646C056C7DEFC9B286E1EBE /* Sources */,
+				D92CE9F5CA6CABF5456592221B703684 /* Frameworks */,
+				2E9203C8B3F751859CBA2604A8F780C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E13DD89794D32428ED9C1EA5C094366 /* PBXTargetDependency */,
+			);
+			name = "Pods-HiAppUITests";
+			productName = "Pods-HiAppUITests";
+			productReference = 162F5ED3C6B3F039958E9AC0B2C72ABD /* Pods_HiAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4936363B385BAC01BC03D7519F048C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9836DFB1DFBCB022170A624A55CE3B03 /* EPContactsPicker */,
+				8F2067AAC0A5ED4F8B828676B25FB5C5 /* EPContactsPicker-EPContactsPicker */,
+				217E6B5F66195584931B9B1CD3866389 /* Pods-HiApp */,
+				5A47947DCEB39461A16B5040DC4987CB /* Pods-HiAppTests */,
+				AC4A1D3BADAE7CA1E40343B2180CC642 /* Pods-HiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01434BD76639F5DE0969E8DBC6A307A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9203C8B3F751859CBA2604A8F780C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70330CDAF721851A08835CF40BCDC7C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8513DFD320858B6F461590E7E4E457F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC8C6CBE27A40DCE6AF141724553FB8 /* EPContactCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7B86B6F5DA1612FFECDFC7BC04ABFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B599A11723FDC9A37541D687B2F6560 /* EPContactCell.xib in Resources */,
+				D425BD3CC17C2D9B027A3DC196CA26EE /* EPContactsPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA7F6A44D4020C2974F906E62A8AD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FB5201010A7F9B00AD1F651FB7AD22 /* Pods-HiAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490ED2214646C056C7DEFC9B286E1EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352801BD8F31C2BB6F5AAC1D5024B766 /* Pods-HiAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D596E540E862D18BB7F8514BECEFC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF581C62EF492494E1535B9581904F0 /* EPConstants.swift in Sources */,
+				535503517E39F699D6BD80833DF78337 /* EPContact.swift in Sources */,
+				104C7137D37D2561967FA63CE7DF20B8 /* EPContactCell.swift in Sources */,
+				0A4C6E55023B7C3C959F02494AC73E6B /* EPContactsPicker-dummy.m in Sources */,
+				EEB57F138707D3C94D8BD9194E7FA646 /* EPContactsPicker.swift in Sources */,
+				2925F9DA65EDDEF38AA53D3A266ED115 /* EPExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A207F4DEA7693821DF866CBB2B3F76E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05CDA4DABBDF0589732D5D474FE0D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB1364D4F2E6FB6B10E9F87E0A68E64 /* Pods-HiApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77A2F3C463DFE9753E8BB6A34FA1DD34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HiApp";
+			target = 217E6B5F66195584931B9B1CD3866389 /* Pods-HiApp */;
+			targetProxy = 2AF7DC3CBCFC5A27DFE65037353A47AA /* PBXContainerItemProxy */;
+		};
+		8E13DD89794D32428ED9C1EA5C094366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HiApp";
+			target = 217E6B5F66195584931B9B1CD3866389 /* Pods-HiApp */;
+			targetProxy = 6085357A45D1AD6BE175AF34F46F274D /* PBXContainerItemProxy */;
+		};
+		CC3B18773580F80F013C921C972C89AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EPContactsPicker;
+			target = 9836DFB1DFBCB022170A624A55CE3B03 /* EPContactsPicker */;
+			targetProxy = B7B77E7573BEC542C5C8305E2FAD0E6F /* PBXContainerItemProxy */;
+		};
+		DD1BA6EC8941000BC1A0AA6B074DB504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EPContactsPicker-EPContactsPicker";
+			target = 8F2067AAC0A5ED4F8B828676B25FB5C5 /* EPContactsPicker-EPContactsPicker */;
+			targetProxy = 6BB4764CACB21D62E1C444C95DB5573F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		137926FC98E1DB3D110491B9FA42D3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D353984C505F7E86FA6E4378E5A8D9 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/ResourceBundle-EPContactsPicker-EPContactsPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		28A91149B420170E0D03AF0AEF40FC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3586E4D6A4B00320C9FAF6AADB912447 /* Pods-HiApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiApp/Pods-HiApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiApp/Pods-HiApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		364ECA9AF466EF56ECE47ECFB508620C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D353984C505F7E86FA6E4378E5A8D9 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/ResourceBundle-EPContactsPicker-EPContactsPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		429C8A636882ECA7D4D0DDDCBDD80058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD18C778957223E70B3DAADF0191C8A /* Pods-HiAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiAppTests/Pods-HiAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiAppTests/Pods-HiAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49472325DC92898855A66842581FBDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C476A508C1D425230A8832B79363CD58 /* Pods-HiApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiApp/Pods-HiApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiApp/Pods-HiApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6225D4EC655B26F4AC4895B430EC543B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FC66407CBE6E508CB601D261B97432 /* Pods-HiAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiAppUITests/Pods-HiAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiAppUITests/Pods-HiAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CA22F2B564768486F45864B0769EF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5ED3A2A74AF6EA8CD2E75FE8E9891E /* Pods-HiAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiAppUITests/Pods-HiAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiAppUITests/Pods-HiAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB3A94C00CEFE039D12AF8CD3921E24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11755484D213D7B43EC6E4B86958EDBF /* Pods-HiAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiAppTests/Pods-HiAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiAppTests/Pods-HiAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7DF36F5AC4D4A87862E8DC9FFCBEEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D353984C505F7E86FA6E4378E5A8D9 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPContactsPicker/EPContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker.modulemap";
+				PRODUCT_MODULE_NAME = EPContactsPicker;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8C05AADAEBD478CA4EF6CF7881E106C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D353984C505F7E86FA6E4378E5A8D9 /* EPContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPContactsPicker/EPContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPContactsPicker/EPContactsPicker.modulemap";
+				PRODUCT_MODULE_NAME = EPContactsPicker;
+				PRODUCT_NAME = EPContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465AAF821BE02F5341B658508BB39EE9 /* Build configuration list for PBXNativeTarget "Pods-HiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49472325DC92898855A66842581FBDA9 /* Debug */,
+				28A91149B420170E0D03AF0AEF40FC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B99900451A515317E03B14FEFA7FC4 /* Build configuration list for PBXNativeTarget "EPContactsPicker-EPContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364ECA9AF466EF56ECE47ECFB508620C /* Debug */,
+				137926FC98E1DB3D110491B9FA42D3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9126441525462045541B0BDA9880C5FC /* Build configuration list for PBXNativeTarget "Pods-HiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA22F2B564768486F45864B0769EF86 /* Debug */,
+				6225D4EC655B26F4AC4895B430EC543B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D450F4DE5CE4CFF4AC8165E203CC6FDA /* Build configuration list for PBXNativeTarget "EPContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C05AADAEBD478CA4EF6CF7881E106C /* Debug */,
+				E7DF36F5AC4D4A87862E8DC9FFCBEEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFAB289066DB4C9DE17484F96A1FDCD /* Build configuration list for PBXNativeTarget "Pods-HiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429C8A636882ECA7D4D0DDDCBDD80058 /* Debug */,
+				AB3A94C00CEFE039D12AF8CD3921E24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - EPContactsPicker (2.0.2)
+
+DEPENDENCIES:
+  - EPContactsPicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EPContactsPicker
+
+SPEC CHECKSUMS:
+  EPContactsPicker: 89b5702dd19564066c390febc8b59b8aa4737748
+
+PODFILE CHECKSUM: a82f93a67b7ad4900d525583e47b9af953e5a0e5
+
+COCOAPODS: 1.6.1
